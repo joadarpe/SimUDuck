@@ -8,5 +8,12 @@ public class MiniDuckSimulator {
         mallard.display();
         mallard.performFly();
         mallard.performQuack();
+
+        Duck model = new ModelDuck();
+        model.display();
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
+
     }
 }
