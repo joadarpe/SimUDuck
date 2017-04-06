@@ -1,3 +1,7 @@
+package strategy;
+
+import strategy.api.FlyBehavior;
+
 /**
  * @author JonathanA.
  */

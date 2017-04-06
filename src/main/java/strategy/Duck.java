@@ -1,3 +1,8 @@
+package strategy;
+
+import strategy.api.FlyBehavior;
+import strategy.api.QuackBehavior;
+
 /**
  * @author JonathanA.
  */

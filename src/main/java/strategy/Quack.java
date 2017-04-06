@@ -1,3 +1,7 @@
+package strategy;
+
+import strategy.api.QuackBehavior;
+
 /**
  * @author JonathanA.
  */
