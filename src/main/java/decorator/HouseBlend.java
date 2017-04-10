@@ -7,12 +7,13 @@ import decorator.base.Beverage;
  */
 public class HouseBlend extends Beverage {
 
-    public HouseBlend() {
+    public HouseBlend(Size size) {
         description = "House Blend Coffee";
+        this.size = size;
     }
 
     @Override
     public double cost() {
-        return 0.89;
+        return 0.89 * size.getCostCoefficient();
     }
 }

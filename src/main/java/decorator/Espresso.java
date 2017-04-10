@@ -7,12 +7,13 @@ import decorator.base.Beverage;
  */
 public class Espresso extends Beverage {
 
-    public Espresso() {
+    public Espresso(Size size) {
         description = "Espresso";
+        this.size = size;
     }
 
     @Override
     public double cost() {
-        return 1.99;
+        return 1.99 * size.getCostCoefficient();
     }
 }
